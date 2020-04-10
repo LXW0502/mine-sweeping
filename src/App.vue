@@ -1,5 +1,5 @@
 <template><!-- 入口页面 -->
-  <div class="app" >
+  <div class="app" @contextmenu.prevent><!-- js禁止右键菜单  事件加修饰符 -->
     <router-view />
   </div>
 </template>

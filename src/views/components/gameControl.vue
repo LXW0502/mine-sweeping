@@ -38,8 +38,8 @@ export default {
       count: 0,
 
       formData: {//对象是引用型数据类型typeof，this.formData、gameData、gameDataFromIndex指向同一个内存地址，所以改变宽度高度数据，表格数目立即改变
-        width: 40,
-        height: 30,
+        width: 10,
+        height: 10,
         bombCount:10,
       },
     };
